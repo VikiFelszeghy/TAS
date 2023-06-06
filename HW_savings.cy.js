@@ -8,7 +8,7 @@ const investmentInfo = {
     yearsInput: "25"
 }
 
-it("Confirm empty fields after creating and deleting a new request", () => {
+it("Confirm empty fields after creating a new request", () => {
     cy.visit("savingscalculator.php")
 
     cy.log("Select fund")
